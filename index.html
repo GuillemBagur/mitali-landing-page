@@ -15,6 +15,21 @@
   </head>
 
   <body class="is-boxed has-animations">
+    <div
+      class="video-popup-wrapper"
+      onclick="hidePopup('#video-popup')"
+      id="video-popup"
+    >
+      <div class="video-popup">
+        <iframe
+          src="https://www.youtube.com/embed/UJLmdkmnco4"
+          title="Mitali.app mini tutorial"
+          frameborder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
     <div class="body-wrap boxed-container">
       <header class="site-header">
         <div class="container">
@@ -46,7 +61,7 @@
                 </p>
                 <div class="hero-cta">
                   <a class="button button-primary" href="#"
-                    >Create your shelf</a
+                    >Create your shelf for free</a
                   >
                 </div>
               </div>
@@ -78,7 +93,12 @@
                       >https://my.mitali.app/<strong>your_name</strong></span
                     >
                   </div>
-                  <a class="button button-secondary mt-2" href="https://shelf-front.vercel.app" target="_blank">See a Demo</a>
+                  <a
+                    class="button button-secondary mt-2"
+                    href="https://shelf-front.vercel.app"
+                    target="_blank"
+                    >See a Demo</a
+                  >
                 </div>
               </div>
               <div class="features-wrap">
@@ -133,6 +153,15 @@
                         can also help you to introduce yourself to sportsclubs.
                       </p>
                     </div>
+
+                    <div class="cta-cta mt-2">
+                      <button
+                        class="button button-primary"
+                        onclick="showPopup('#video-popup')"
+                      >
+                        See a video
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -150,7 +179,7 @@
                 </p>
                 <div class="cta-cta">
                   <a class="button button-primary" href="#"
-                    >Create your shelf</a
+                    >Create your shelf for free</a
                   >
                 </div>
               </div>
@@ -241,5 +270,26 @@
     </div>
 
     <script src="dist/js/main.min.js"></script>
+    <script>
+      function showPopup(selector) {
+        const popup = document.querySelector(selector);
+        if (!popup) return;
+        try {
+          popup.classList.add("visible");
+        } catch (err) {
+          console.log(err);
+        }
+      }
+
+      function hidePopup(selector) {
+        const popup = document.querySelector(selector);
+        if (!popup) return;
+        try {
+          popup.classList.remove("visible");
+        } catch (err) {
+          console.log(err);
+        }
+      }
+    </script>
   </body>
 </html>
