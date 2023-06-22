@@ -1417,6 +1417,9 @@ main {
   padding-top: 48px;
   padding-bottom: 48px;
 }
+.header-brand {
+  display: inline-block;
+}
 .footer-brand,
 .footer-links,
 .footer-social-links,
@@ -1718,4 +1721,14 @@ button,
 .video-popup iframe {
   width: 100%;
   aspect-ratio: 7/16;
+}
+
+.lang-select {
+  position: relative;
+  display: block;
+  z-index: 3;
+  padding: .3rem .5rem;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgba(41, 48, 242, .2)
 }

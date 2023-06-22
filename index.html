@@ -35,16 +35,19 @@
         <div class="container">
           <div class="site-header-inner">
             <div class="brand header-brand">
-              <h1 class="m-0">
-                <a href="#">
-                  <img
-                    class="header-logo-image"
-                    src="dist/images/mitali-logo.webp"
-                    alt="Logo"
-                  />
-                </a>
-              </h1>
+              <a href="#">
+                <img
+                  class="header-logo-image"
+                  src="dist/images/mitali-logo.webp"
+                  alt="Logo"
+                />
+              </a>
             </div>
+            <select class="lang-select" id="lang-select">
+              <option value="en">English</option>
+              <option value="es">Español</option>
+              <option value="ca">Català</option>
+            </select>
           </div>
         </div>
       </header>
@@ -55,13 +58,16 @@
             <div class="hero-inner">
               <div class="hero-copy">
                 <h1 class="hero-title mt-0">Mitali.app</h1>
-                <p class="hero-paragraph">
+                <p class="hero-paragraph" data-role="web_introduction">
                   The first virtual shelf, to share your trophies & achievements
                   with all of your followers!
+                  <br />
+                  <br />
+                  <strong>For free, forever.</strong>
                 </p>
                 <div class="hero-cta">
-                  <a class="button button-primary" href="#"
-                    >Create your shelf for free</a
+                  <a class="button button-primary" href="#" data-role="cta_1"
+                    >Create your shelf</a
                   >
                 </div>
               </div>
@@ -83,26 +89,33 @@
             <div class="features-inner section-inner has-bottom-divider">
               <div class="features-header text-center">
                 <div class="container-sm">
-                  <h2 class="section-title mt-0">A simple link</h2>
-                  <p class="section-paragraph">
+                  <h2 class="section-title mt-0" data-role="section_1_title">
+                    A simple link
+                  </h2>
+                  <p class="section-paragraph" data-role="section_1_p">
                     You can add it to your Instagram bio, paste it on your
                     personal website or share it with your friends!
                   </p>
                   <div>
                     <span
-                      >https://my.mitali.app/<strong>your_name</strong></span
+                      >https://my.mitali.app/<strong data-role="your_name"
+                        >your_name</strong
+                      ></span
                     >
                   </div>
                   <a
                     class="button button-secondary mt-2"
-                    href="https://shelf-front.vercel.app"
+                    href="https://demo.mitali.app"
                     target="_blank"
+                    data-role="see_a_demo_button"
                     >See a Demo</a
                   >
                 </div>
               </div>
               <div class="features-wrap">
-                <h2 class="section-title mt-1 mb-3">How does it work?</h2>
+                <h2 class="section-title mt-1 mb-3" data-role="section_2_title">
+                  How does it work?
+                </h2>
                 <div class="feature is-revealing">
                   <div class="feature-inner">
                     <div class="feature-icon">
@@ -112,8 +125,13 @@
                       />
                     </div>
                     <div class="feature-content">
-                      <h3 class="feature-title mt-0">You register</h3>
-                      <p class="text-sm mb-0">
+                      <h3
+                        class="feature-title mt-0"
+                        data-role="section_2_feature_1_title"
+                      >
+                        You register
+                      </h3>
+                      <p class="text-sm mb-0" data-role="section_2_feature_1_p">
                         When you register we ask you to put your real name and
                         your favorite sports (and other disciplines).
                       </p>
@@ -129,8 +147,13 @@
                       />
                     </div>
                     <div class="feature-content">
-                      <h3 class="feature-title mt-0">We do some magic</h3>
-                      <p class="text-sm mb-0">
+                      <h3
+                        class="feature-title mt-0"
+                        data-role="section_2_feature_2_title"
+                      >
+                        We do some magic
+                      </h3>
+                      <p class="text-sm mb-0" data-role="section_2_feature_2_p">
                         We scan official sports federation websites and
                         databases to search for your wins and best performances.
                         Then, we give you a trophy every time you deserve it.
@@ -147,8 +170,13 @@
                       />
                     </div>
                     <div class="feature-content">
-                      <h3 class="feature-title mt-0">You share! 🎉</h3>
-                      <p class="text-sm mb-0">
+                      <h3
+                        class="feature-title mt-0"
+                        data-role="section_2_feature_3_title"
+                      >
+                        You share! 🎉
+                      </h3>
+                      <p class="text-sm mb-0" data-role="section_2_feature_3_p">
                         Share your shelf and be proud of your achievements! It
                         can also help you to introduce yourself to sportsclubs.
                       </p>
@@ -158,6 +186,7 @@
                       <button
                         class="button button-primary"
                         onclick="showPopup('#video-popup')"
+                        data-role="see_a_video_button"
                       >
                         See a video
                       </button>
@@ -173,12 +202,14 @@
           <div class="container-sm">
             <div class="cta-inner section-inner">
               <div class="cta-header text-center">
-                <h2 class="section-title mt-0">Get it</h2>
-                <p class="section-paragraph">
+                <h2 class="section-title mt-0" data-role="section_3_title">
+                  Get it
+                </h2>
+                <p class="section-paragraph" data-role="section_3_p">
                   Be one of the first athletes with a Shelf!
                 </p>
                 <div class="cta-cta">
-                  <a class="button button-primary" href="#"
+                  <a class="button button-primary" href="#" data-role="cta_2"
                     >Create your shelf for free</a
                   >
                 </div>
@@ -202,16 +233,16 @@
             </div>
             <ul class="footer-links list-reset">
               <li>
-                <a href="#">Contact</a>
+                <a href="#" data-role="footer_contact">Contact</a>
               </li>
               <li>
-                <a href="#">About us</a>
+                <a href="#" data-role="footer_aboutus">About us</a>
               </li>
               <li>
-                <a href="#">FAQ's</a>
+                <a href="#" data-role="footer_faqs">FAQ's</a>
               </li>
               <li>
-                <a href="#">Support</a>
+                <a href="#" data-role="footer_support">Support</a>
               </li>
             </ul>
             <ul class="footer-social-links list-reset">
@@ -291,5 +322,6 @@
         }
       }
     </script>
+    <script src="dist/js/langs.js"></script>
   </body>
 </html>
