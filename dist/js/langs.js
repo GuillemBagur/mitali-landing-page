@@ -33,7 +33,64 @@ const langs = {
     footer_contact: "Contact",
     footer_aboutus: "About us",
     footer_faqs: "FAQ's",
-    footer_suppoer: "Support",
+    footer_privacy: "Privacy",
+    footer_legal: "Legal",
+
+    comming_soon_title: "Comming soon",
+    comming_soon_explanation: `Yes... we know you're excited about having your virtual shelf!
+    We are working hard (even during our vacation) to have the app
+    ready as soon as possible. We are planning to launch it on August. Stay tuned!`,
+    comming_soon_pic_legend: "We're working even on the beach!",
+
+    aboutus_greeting: "Hi! It's Guiem Bagur",
+    aboutus_bio: `
+    I'm the founder of Mitali. I'm also the developer & mantainer
+    (with the support of
+    <a href="https://pangea.org/">Pangea.org</a>) of
+    <a href="https://sunflowerseeds.pangea.org/" target="_blank"
+      >SunflowerSeeds</a
+    >, an opensource app thought for dyslexic people.
+    <br />
+    <br />
+    I'm from Menorca, Spain. A really beautiful island, but
+    nowadays is seriously affected by pollution. That's why I
+    always try to create ecologic solutions.
+    <br />
+    <br />
+    I love running and playing chess. Thanks to that, during these
+    years, I've won some humble trophies. This has inspired me to
+    create this app.
+    `,
+    aboutus_pic_legend: "Guiem during a trophy ceremony",
+
+    faqs_title: "FAQs",
+    faqs_introduction: `Here we will answer some of the most common Mitali related
+    questions. If you dont find your answer here,
+    <a href="mailto:guillembagurmoll@gmail.com"
+      >please contact us</a
+    >, we are happy to help you!`,
+
+    faqs_what_is_mitali_title: "What is Mitali?",
+    faqs_what_is_mitali_title: `It's an app to show all of your trophies to the Internet. Your
+    profile will be linked to an URL, so you can share it with whoever
+    you want.`,
+    faqs_is_mitali_free_title: "Is Mitali free?",
+    faqs_is_mitali_free_title: `Of course! We will keep a completely free plan forever. In the
+    future, maybe we add some extra features, for premium users. But,
+    if you create your account now, you'll have access to all the
+    features for free forever!`,
+    faqs_trophies_info_title: "How do you get all the trophies info?",
+    faqs_trophies_info_title: `We use your real name to automatically search into sports
+    federation websites, in search of your performances. If we miss
+    any important trophy, you can
+    <a href="mailto:guillembagurmoll@gmail.com">contact us</a> to
+    claim it.`,
+    faqs_identity_title: "My identity is already taken, what should I do?",
+    faqs_identity_title: `If someone has used your name, you can claim that shelf. Please,
+    <a href="mailto:guillembagurmoll@gmail.com">contact us</a>.`,
+    faqs_paid_plan_title: "Do you have a paid plan?",
+    faqs_paid_plan_title: `At the moment, no. But we're planning to add some extra features
+    for users who want the best.`,
   },
 
   es: {
@@ -62,7 +119,59 @@ const langs = {
     footer_contact: "Contacto",
     footer_aboutus: "Sobre nosotros",
     footer_faqs: "Preguntas frecuentes",
-    footer_support: "Soporte",
+    footer_privacy: "Privacidad",
+    footer_legal: "Aviso legal",
+
+
+    comming_soon_title: "Muy pronto",
+    comming_soon_explanation: `Sí... sabemos que tienes muchas ganas de tener ya tu <i>shelf</i> virtual. Estamos trabajando duro (hasta en nuestras vacaciones) para tener la aplicación lista lo antes posible. Tenemos planeado lanzarla en agosto. ¡Estate atent@! 👀`,
+    comming_soon_pic_legend: "¡Trabajamos hasta cuando vamos a la playa!",
+
+    aboutus_greeting: "¡Hola! Soy Guiem Bagur",
+    aboutus_bio: `
+    Soy el fundador de Mitali. También, soy el desarrollador y mantenidor 
+
+    (con el soporte de
+    <a href="https://pangea.org/">Pangea.org</a>) de
+    <a href="https://sunflowerseeds.pangea.org/" target="_blank"
+      >SunflowerSeeds</a
+    >, una aplicación <i>opensource</i> pensada para personas con dislexia.
+    <br />
+    <br />
+    Soy de Menorca, España. Una isla preciosa pero, hoy en día, se empiezan
+    a notar los efectos de la polución. Es por eso que siempre intento
+    crear soluciones ecológicas.
+    <br />
+    <br />
+    Me encanta ir a correr y jugar al ajedrez. Gracias a estas dos aficiones,
+    he ganado unos cuantos trofeos a lo largo de mi vida. Ésto me ha inspirado
+    a crear esta aplicación.
+    `,
+    aboutus_pic_legend: "Guiem durante una entrega de trofeos",
+
+    faqs_introduction:
+      "Aquí responderemos algunas de las preguntas más comunes relacionadas con Mitali. Si no encuentras tu respuesta aquí, por favor, <a href='mailto:guillembagurmoll@gmail.com'>contáctanos</a>, ¡estaremos encantados de ayudarte!",
+
+    faqs_what_is_mitali_title: "¿Qué es Mitali?",
+    faqs_what_is_mitali_explanation:
+      "Es una aplicación para mostrar todos tus trofeos en Internet. Tu perfil estará vinculado a una URL, para que puedas compartirla con quien desees.",
+
+    faqs_is_mitali_free_title: "¿Es gratis?",
+    faqs_is_mitali_free_explanation:
+      "¡Por supuesto! Mantendremos un plan completamente gratuito para siempre. En el futuro, agreguemos algunas funciones adicionales para usuarios premium. Pero si creas tu cuenta ahora, ¡tendrás acceso a todas las funciones de forma gratuita para siempre!",
+
+    faqs_trophies_info_title:
+      "¿De dónde sacamos toda la información de los trofeos?",
+    faqs_trophies_info_explanation:
+      "Utilizamos tu nombre real para buscar automáticamente en los sitios web de las federaciones deportivas en busca de tus logros. Si nos falta algún trofeo importante, puedes <a href='mailto:guillembagurmoll@gmail.com'>contactarnos</a> para reclamarlo.",
+
+    faqs_identity_title: "Mi identidad ya está tomada, ¿qué debo hacer?",
+    faqs_identity_explanation:
+      "Si alguien ha utilizado tu nombre, puedes reclamar esa estantería. Por favor, <a href='mailto:guillembagurmoll@gmail.com'>contáctanos</a>.",
+
+    faqs_paid_plan_title: "¿Tenéis un plan de pago?",
+    faqs_paid_plan_explanation:
+      "De momento, no. Pero estamos planeando agregar algunas funciones adicionales para los usuarios que deseen lo mejor.",
   },
 
   ca: {
@@ -80,7 +189,7 @@ const langs = {
       "Quan et registres, et demanem que posis el teu nom real i els teus esports preferits (i altres disciplines).",
     section_2_feature_2_title: "Nosaltres fem una mica de màgia",
     section_2_feature_2_p:
-      "Escanejem llocs web oficials de federacions esportives i bases de dades per buscar les teves victòries i millors actuacions. Després, t'atorguem un trofeu cada vegada que t'ho mereixis.",
+      "Escanejem llocs web oficials de federacions esportives i bases de dades per buscar les teves victòries i millors actuacions. Després, t'otorguem un trofeu cada vegada que t'ho mereixis.",
     section_2_feature_3_title: "Comparteix! 🎉",
     section_2_feature_3_p:
       "Comparteix la teva prestatgeria i sent-te orgullós de les teves victòries! També pot ajudar-te a donar-te a conèixer entre els clubs esportius.",
@@ -91,7 +200,57 @@ const langs = {
     footer_contact: "Contacte",
     footer_aboutus: "Sobre nosaltres",
     footer_faqs: "Preguntes freqüents",
-    footer_support: "Suport",
+    footer_privacy: "Privacitat",
+    footer_legal: "Avís legal",
+
+
+    comming_soon_title: "Molt aviat",
+    comming_soon_explanation: `Sí... sabem que tens moltes ganes de poder crear el teu <i>shelf</i> virtual. Estem treballant de valent (fins i tot, durant les nostres vacances) per tenir l'app a punt l'abans possible. Planegem publicar-la l'agost. Estigues atent/a! 👀`,
+    comming_soon_pic_legend: "Treballem, fins i tot, quan anem a la platja!",
+
+    aboutus_greeting: "Hola! Sóc en Guiem Bagur",
+    aboutus_bio: `
+    Sóc el fundador de Mitali. També, el desenvolupador i mantenidor 
+    (amb el suport de 
+    <a href="https://pangea.org/">Pangea.org</a>) de
+    <a href="https://sunflowerseeds.pangea.org/" target="_blank"
+      >SunflowerSeeds</a
+    >, una aplicació <i>opensource</i> pensada per a persones amb dislèxia.
+    <br />
+    <br />
+    Sóc de Menorca, Espanya. Una illa preciosa però, avui dia, es començen
+    a notar els efectes de la pol·lució. És per això que sempre intenro
+    crear solucions ecològiques.
+    <br />
+    <br />
+    M'encanta córrer i jugar a escacs. Gràcies a aquestes dues aficions,
+    he guanyat uns quants trofeus humils durant la meva vida. Això m'ha
+    inspirat a crear aquesta aplicació.
+    `,
+    aboutus_pic_legend: "En Guiem durant una entrega de trofeus",
+
+    faqs_introduction:
+      "Aquí respondrem algunes de les preguntes més comunes relacionades amb Mitali. Si no trobes la teva resposta aquí, si us plau, <a href='mailto:guillembagurmoll@gmail.com'>contacta'ns</a>, estarem encantats d'ajudar-te!",
+
+    faqs_what_is_mitali_title: "Què és Mitali?",
+    faqs_what_is_mitali_explanation:
+      "És una aplicació per mostrar tots els teus trofeus a Internet. El teu perfil estarà vinculat a una URL, perquè puguis compartir-la amb qui vulguis.",
+
+    faqs_is_mitali_free_title: "És gratis?",
+    faqs_is_mitali_free_explanation:
+      "Per descomptat! Mantindrem un pla completament gratuït per sempre. En el futur, potser afegim algunes funcions addicionals per a usuaris premium. Però, si crees el teu compte ara, tindràs accés a totes les funcionalitats de forma gratuïta per sempre!",
+
+    faqs_trophies_info_title: "D'on obteniu tota la informació dels trofeus?",
+    faqs_trophies_info_explanation:
+      "Utilitzem el teu nom real per buscar automàticament als llocs web de les federacions esportives, a la recerca dels teus resultats. Si ens falta algun trofeu important, pots <a href='mailto:guillembagurmoll@gmail.com'>contactar-nos</a> per reclamar-lo.",
+
+    faqs_identity_title: "La meva identitat ja està presa, què haig de fer?",
+    faqs_identity_explanation:
+      "Si algú ha utilitzat el teu nom, pots reclamar aquella prestatgeria. Si us plau, <a href='mailto:guillembagurmoll@gmail.com'>contacta'ns</a>.",
+
+    faqs_paid_plan_title: "Teniu un pla de pagament?",
+    faqs_paid_plan_explanation:
+      "De moment, no. Però estem planejant afegir algunes funcions addicionals per als usuaris que vulguin el millor.",
   },
 };
 
@@ -99,7 +258,7 @@ function checkDefaultLang() {
   const availableLangs = Object.keys(langs);
   const userLangBrowser = navigator.language || navigator.userLanguage;
   const userLang = userLangBrowser.split("-")[0];
-  console.log(userLang)
+  console.log(userLang);
   if (!availableLangs.includes(userLang)) {
     return "es";
   }
@@ -120,7 +279,7 @@ function loadLang() {
 }
 
 function translate(lang) {
-  console.log(lang)
+  console.log(lang);
   const allRoles = Object.keys(langs[lang]);
   for (let role of allRoles) {
     try {
@@ -146,7 +305,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 langSelect.addEventListener("change", (e) => {
-  const {target} = e;
-  const {value} = target;
+  const { target } = e;
+  const { value } = target;
   setLang(value);
-})
+});

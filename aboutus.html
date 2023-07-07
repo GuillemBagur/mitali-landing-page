@@ -16,7 +16,7 @@
 
   <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
-      <header class="site-header">
+      <header class="site-header" id="nav">
         <div class="container">
           <div class="site-header-inner">
             <div class="brand header-brand">
@@ -42,10 +42,10 @@
           <div class="container">
             <div class="hero-inner">
               <div class="hero-copy">
-                <h1 class="hero-title mt-0" data-role="">
+                <h1 class="hero-title mt-0" data-role="aboutus_greeting">
                   Hi! It's Guiem Bagur
                 </h1>
-                <p class="hero-paragraph" data-role="web_introduction">
+                <p class="hero-paragraph" data-role="aboutus_bio">
                   I'm the founder of Mitali. I'm also the developer & mantainer
                   (with the support of
                   <a href="https://pangea.org/">Pangea.org</a>) of
@@ -71,7 +71,7 @@
                     src="dist/images/guiem2.jpg"
                     alt="Hero media"
                   />
-                  <legend class="pic-legend">Guiem during a trophy ceremony</legend>
+                  <legend class="pic-legend" data-role="aboutus_pic_legend">Guiem during a trophy ceremony</legend>
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@
         </section>
       </main>
 
-      <footer class="site-footer has-top-divider">
+      <footer class="site-footer has-top-divider" id="footer">
         <div class="container">
           <div class="site-footer-inner">
             <div class="brand footer-brand">
@@ -186,7 +186,7 @@
         }
       }
     </script>
+    <script src="dist/js/langs.js"></script>
     <script src="./dist/js/nav-footer.js"></script>
-    <!-- <script src="dist/js/langs.js"></script> -->
   </body>
 </html>

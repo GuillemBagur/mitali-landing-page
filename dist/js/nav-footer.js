@@ -10,10 +10,12 @@ const navText = `
           class="header-logo-image"
           src="dist/images/mitali-logo.webp"
           alt="Logo"
+          style="height: 3rem;aspect-ratio: 1 / 1;"
         />
       </a>
     </div>
-    <select class="lang-select" id="lang-select">
+    <select class="lang-select" id="lang-select" onchange="setLang(this.value);">
+      <option value="en">Language</option>
       <option value="en">English</option>
       <option value="es">Español</option>
       <option value="ca">Català</option>
@@ -49,10 +51,10 @@ const footerText = `
                 <a href="/faqs.html" data-role="footer_faqs">FAQ's</a>
               </li>
               <li>
-                <a href="/legal.html" data-role="footer_support">Legal</a>
+                <a href="/legal.html" data-role="footer_legal">Legal</a>
               </li>
               <li>
-                <a href="/privacy.html" data-role="footer_support">Privacy</a>
+                <a href="/privacy.html" data-role="footer_privacy">Privacy</a>
               </li>
             </ul>
             <ul class="footer-social-links list-reset">

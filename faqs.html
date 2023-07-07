@@ -16,7 +16,7 @@
 
   <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
-      <header class="site-header">
+      <header class="site-header" id="nav">
         <div class="container">
           <div class="site-header-inner">
             <div class="brand header-brand">
@@ -42,8 +42,8 @@
           <div class="container">
             <div class="hero-inner">
               <div class="hero-copy">
-                <h1 class="hero-title mt-0" data-role="">FAQs</h1>
-                <p class="hero-paragraph" data-role="web_introduction">
+                <h1 class="hero-title mt-0" data-role="faqs_title">FAQs</h1>
+                <p class="hero-paragraph" data-role="faqs_introduction">
                   Here we will answer some of the most common Mitali related
                   questions. If you dont find your answer here,
                   <a href="mailto:guillembagurmoll@gmail.com"
@@ -57,16 +57,16 @@
 
         <section class="faqs-wrapper">
           <details>
-            <summary class="">What is Mitali?</summary>
-            <p>
+            <summary data-role="faqs_what_is_mitali_title">What is Mitali?</summary>
+            <p data-role="faqs_what_is_mitali_explanation">
               It's an app to show all of your trophies to the Internet. Your
               profile will be linked to an URL, so you can share it with whoever
               you want.
             </p>
           </details>
           <details>
-            <summary class="">Is Mitali free?</summary>
-            <p>
+            <summary data-role="faqs_is_mitali_free_title">Is Mitali free?</summary>
+            <p data-role="faqs_is_mitali_free_explanation">
               Of course! We will keep a completely free plan forever. In the
               future, maybe we add some extra features, for premium users. But,
               if you create your account now, you'll have access to all the
@@ -74,8 +74,8 @@
             </p>
           </details>
           <details>
-            <summary class="">How do you get all the trophies info?</summary>
-            <p>
+            <summary data-role="faqs_trophies_info_title">How do you get all the trophies info?</summary>
+            <p data-role="faqs_trophies_info_explanation">
               We use your real name to automatically search into sports
               federation websites, in search of your performances. If we miss
               any important trophy, you can
@@ -84,17 +84,17 @@
             </p>
           </details>
           <details>
-            <summary class="">
+            <summary data-role="faqs_identity_title">
               My identity is already taken, what should I do?
             </summary>
-            <p>
+            <p data-role="faqs_identity_explanation">
               If someone has used your name, you can claim that shelf. Please,
               <a href="mailto:guillembagurmoll@gmail.com">contact us</a>.
             </p>
           </details>
           <details>
-            <summary class="">Do you have a paid plan?</summary>
-            <p>
+            <summary data-role="faqs_paid_plan_title">Do you have a paid plan?</summary>
+            <p data-role="faqs_paid_plan_explanation">
               At the moment, no. But we're planning to add some extra features
               for users who want the best.
             </p>
@@ -102,7 +102,7 @@
         </section>
       </main>
 
-      <footer class="site-footer has-top-divider">
+      <footer class="site-footer has-top-divider" id="footer">
         <div class="container">
           <div class="site-footer-inner">
             <div class="brand footer-brand">
@@ -209,7 +209,7 @@
         }
       }
     </script>
+    <script src="dist/js/langs.js"></script>
     <script src="./dist/js/nav-footer.js"></script>
-    <!-- <script src="dist/js/langs.js"></script> -->
   </body>
 </html>
