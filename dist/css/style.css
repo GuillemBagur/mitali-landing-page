@@ -1732,3 +1732,43 @@ button,
   outline: none;
   background-color: rgba(41, 48, 242, .2)
 }
+
+.aboutus-main-img-container {
+  display: block;
+  margin: auto;
+  width: 85%;
+  max-width: 25rem;
+  aspect-ratio: 3 / 4;
+}
+
+.aboutus-main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.pic-legend {
+  display: block;
+  text-align: center;
+}
+
+.faqs-wrapper {
+  box-sizing: border-box;
+  padding: 1rem;
+  user-select: none;
+  text-align: justify;
+}
+
+.faqs-wrapper * {
+  outline: none;
+}
+
+.faqs-wrapper summary {
+  font-weight: bold;
+}
+
+.faqs-wrapper p {
+  width: 90%;
+  margin-left: 1rem;
+}

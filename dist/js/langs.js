@@ -83,11 +83,11 @@ const langs = {
       "Escanejem llocs web oficials de federacions esportives i bases de dades per buscar les teves victòries i millors actuacions. Després, t'atorguem un trofeu cada vegada que t'ho mereixis.",
     section_2_feature_3_title: "Comparteix! 🎉",
     section_2_feature_3_p:
-      "Comparteix la teva prestatgeria i sent-te orgullós dels teus èxits! També pot ajudar-te a donar-te a conèixer entre els clubs esportius.",
+      "Comparteix la teva prestatgeria i sent-te orgullós de les teves victòries! També pot ajudar-te a donar-te a conèixer entre els clubs esportius.",
     see_a_video_button: "Veure un vídeo",
     section_3_title: "Tot a punt?",
     section_3_p: "Sigues un dels primers atletes amb un Shelf!",
-    cta_2: "Crea la teva prestatgeria de franc",
+    cta_2: "Crea la teva prestatgeria gratis",
     footer_contact: "Contacte",
     footer_aboutus: "Sobre nosaltres",
     footer_faqs: "Preguntes freqüents",
@@ -97,9 +97,11 @@ const langs = {
 
 function checkDefaultLang() {
   const availableLangs = Object.keys(langs);
-  const userLang = navigator.language || navigator.userLanguage;
-  if (!availableLangs.includes(userLang.split("-")[0])) {
-    return "en";
+  const userLangBrowser = navigator.language || navigator.userLanguage;
+  const userLang = userLangBrowser.split("-")[0];
+  console.log(userLang)
+  if (!availableLangs.includes(userLang)) {
+    return "es";
   }
 
   return userLang;
@@ -118,6 +120,7 @@ function loadLang() {
 }
 
 function translate(lang) {
+  console.log(lang)
   const allRoles = Object.keys(langs[lang]);
   for (let role of allRoles) {
     try {
