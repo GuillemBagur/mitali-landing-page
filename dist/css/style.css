@@ -1772,3 +1772,13 @@ button,
   width: 90%;
   margin-left: 1rem;
 }
+
+.small-icon {
+  height: 1.2rem;
+  aspect-ratio: 1 / 1;
+  filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(9deg) brightness(118%) contrast(101%);
+}
+
+.small-icon.correction {
+  height: 1.5rem;
+}
