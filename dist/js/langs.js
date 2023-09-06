@@ -91,6 +91,10 @@ const langs = {
     faqs_paid_plan_title: "Do you have a paid plan?",
     faqs_paid_plan_title: `At the moment, no. But we're planning to add some extra features
     for users who want the best.`,
+    join_waitlist_title: "Join our waitlist!",
+    join_waitlist_explanation:
+      "Mitali is already in beta phase! If you want to be one of the first people to have his own virtual shelf, you can join our waitlist.<br><br>We are gradually giving access to some users!",
+    join_waitlist_button: "Join",
   },
 
   es: {
@@ -121,7 +125,6 @@ const langs = {
     footer_faqs: "Preguntas frecuentes",
     footer_privacy: "Privacidad",
     footer_legal: "Aviso legal",
-
 
     comming_soon_title: "Muy pronto",
     comming_soon_explanation: `Sí... sabemos que tienes muchas ganas de tener ya tu <i>shelf</i> virtual. Estamos trabajando duro (hasta en nuestras vacaciones) para tener la aplicación lista lo antes posible. Tenemos planeado lanzarla en agosto. ¡Estate atent@! 👀`,
@@ -172,6 +175,10 @@ const langs = {
     faqs_paid_plan_title: "¿Tenéis un plan de pago?",
     faqs_paid_plan_explanation:
       "De momento, no. Pero estamos planeando agregar algunas funciones adicionales para los usuarios que deseen lo mejor.",
+    join_waitlist_title: "¡Únete a nuestra lista de espera!",
+    join_waitlist_explanation:
+      "¡Mitali ya está en fase beta! Si quieres ser uno de los primeros en tener tu propia estantería virtual, puedes unirte a nuestra lista de espera.<br><br>¡Estamos dando acceso gradualmente a algunos usuarios!",
+    join_waitlist_button: "Unirse",
   },
 
   ca: {
@@ -202,7 +209,6 @@ const langs = {
     footer_faqs: "Preguntes freqüents",
     footer_privacy: "Privacitat",
     footer_legal: "Avís legal",
-
 
     comming_soon_title: "Molt aviat",
     comming_soon_explanation: `Sí... sabem que tens moltes ganes de poder crear el teu <i>shelf</i> virtual. Estem treballant de valent (fins i tot, durant les nostres vacances) per tenir l'app a punt l'abans possible. Planegem publicar-la l'agost. Estigues atent/a! 👀`,
@@ -251,6 +257,10 @@ const langs = {
     faqs_paid_plan_title: "Teniu un pla de pagament?",
     faqs_paid_plan_explanation:
       "De moment, no. Però estem planejant afegir algunes funcions addicionals per als usuaris que vulguin el millor.",
+    join_waitlist_title: "Uneix-te a la nostra llista d'espera!",
+    join_waitlist_explanation:
+      "Mitali ja està en fase beta! Si vols ser un dels primers a tenir la teva pròpia prestatgeria virtual, pots unir-te a la nostra llista d'espera.<br><br>Estem donant accés progressivament a alguns usuaris!",
+    join_waitlist_button: "Unir-se",
   },
 };
 
