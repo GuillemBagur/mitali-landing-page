@@ -1,5 +1,5 @@
 :root {
-  --main-color: #2930f2ff;
+  --main-color: #0A94D5;
   --cool-gray: #a7a5c6ff;
   --yellow: #e3c500ff;
   --white: #f5eccdff;
@@ -302,7 +302,7 @@ textarea {
   font-family: "Heebo", sans-serif;
 }
 a {
-  color: #535fd7;
+  color: #0A94D5;
   text-decoration: none;
 }
 a:hover,
@@ -592,7 +592,7 @@ label {
   text-decoration: none;
   text-transform: uppercase;
   background-color: #fff;
-  color: #535fd7 !important;
+  color: #0A94D5 !important;
   border: none;
   height: auto;
   left: 8px;
@@ -615,7 +615,7 @@ label {
   text-align: right;
 }
 .text-primary {
-  color: #535fd7;
+  color: #0A94D5;
 }
 .text-secondary {
   color: #61effd;
@@ -1031,7 +1031,7 @@ label {
   transition: all 0.15s ease-out;
 }
 .switch[type="checkbox"]:checked + label::before {
-  background: #535fd7;
+  background: #0A94D5;
 }
 .switch[type="checkbox"]:checked + label::after {
   left: 34px;
@@ -1062,7 +1062,7 @@ label {
   text-decoration: none !important;
   text-transform: uppercase;
   background-color: #e9edf3;
-  color: #535fd7 !important;
+  color: #0A94D5 !important;
   border: none;
   border-radius: 2px;
   cursor: pointer;
@@ -1084,7 +1084,7 @@ label {
   background-color: var(--main-color);
 }
 .button-primary:hover {
-  background: #2930f2aa;
+  background: #0A94D5aa;
 }
 
 .button-block {
@@ -1471,7 +1471,7 @@ main {
 }
 .switch[type="checkbox"] + label::before {
   background: #41a5ea;
-  background: linear-gradient(to right, #2feafc 0, #535fd7 100%);
+  background: linear-gradient(to right, #2feafc 0, #0A94D5 100%);
 }
 .switch[type="checkbox"] + label::after {
   background: #fff;
@@ -1644,7 +1644,7 @@ hr::after,
 }
 
 .features-header {
-  background-color: #2930f2dd;
+  background-color: #0A94D5dd;
   margin: -27px;
   padding: 2rem;
   box-sizing: border-box;
@@ -1664,8 +1664,7 @@ hr::after,
 }
 
 .icon.big-icon {
-  filter: invert(15%) sepia(90%) saturate(4421%) hue-rotate(242deg)
-    brightness(91%) contrast(109%);
+  filter: invert(46%) sepia(49%) saturate(6496%) hue-rotate(176deg) brightness(101%) contrast(92%);
   opacity: 0.8;
 }
 

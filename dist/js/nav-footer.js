@@ -39,7 +39,7 @@ const footerText = `
             <ul class="footer-links list-reset">
               <li>
                 <a
-                  href="mailto:guillembagurmoll@gmail.com"
+                  href="mailto:info@mitali.app"
                   data-role="footer_contact"
                   >Contact</a
                 >
