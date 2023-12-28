@@ -1618,7 +1618,7 @@ hr::after,
 }
 .is-loaded .header-logo-image,
 .is-loaded .bottom-logo-image {
-  height: 3rem;
+  height: 70px;
   aspect-ratio: 1 / 1;
   animation: fadeInLogo 0.35s both cubic-bezier(0.3, 0, 0.2, 1);
   will-change: transform;
